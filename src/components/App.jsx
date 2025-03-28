@@ -10,7 +10,9 @@ function App() {
     setFilterValue(inputValue);
   };
   const filteredCountries = data.filter((countries) => {
-    return countries.title.toLowerCase().includes(filterValue.toLowerCase());
+    return countries.name.official
+      .toLowerCase()
+      .includes(filterValue.toLowerCase());
   });
   return (
     <>
