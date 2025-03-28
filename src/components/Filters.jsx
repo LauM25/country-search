@@ -12,7 +12,13 @@ function Filters({ onChangeFilters }) {
       <div>
         <label htmlFor="">By Continent</label>
         <select name="" id="">
-          <option value="volvo">All</option>
+          <option value="All">All</option>
+          <option value="Africa">Africa</option>
+          <option value="North America">North America</option>
+          <option value="South America">South America</option>
+          <option value="Europe">Europe</option>
+          <option value="Asia">Asia</option>
+          <option value="Oceania">Oceania</option>
         </select>
       </div>
     </div>
