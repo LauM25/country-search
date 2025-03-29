@@ -4,7 +4,7 @@ function ListCountries({ countries }) {
   return (
     <div>
       {countries.map((country) => {
-        return <CountryTarjet key={country.id} infoCountry={country} />;
+        return <CountryTarjet key={country.flag} infoCountry={country} />;
       })}
     </div>
   );
